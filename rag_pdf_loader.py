@@ -135,7 +135,7 @@ with st.sidebar:
 
 question = st.text_input(
     "Ask a question",
-    placeholder="e.g. What PSNR and SSIM does the proposed method achieve?",
+    placeholder="e.g. WHAT's the difference between langchain and langgraph",
 )
 
 if 'db' not in st.session_state:
